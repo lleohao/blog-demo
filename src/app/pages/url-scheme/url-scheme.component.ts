@@ -9,4 +9,12 @@ export class UrlSchemeComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {}
+
+  handleHrefClick(): void {
+    location.href = 'zhihu://articles/296580539';
+  }
+
+  handleOpenClick(): void {
+    window.open('zhihu://articles/296580539');
+  }
 }
