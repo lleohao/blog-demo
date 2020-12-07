@@ -11,10 +11,10 @@ export class UrlSchemeComponent implements OnInit {
   ngOnInit(): void {}
 
   handleHrefClick(): void {
-    location.href = 'zhihu://articles/296580539';
+    location.href = 'fleamarket://item_note_fun';
   }
 
   handleOpenClick(): void {
-    window.open('zhihu://articles/296580539');
+    window.open('fleamarket://item_note_fun');
   }
 }
